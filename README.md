@@ -6,12 +6,13 @@ Autonomous UAV navigation system featuring real-time 3D occupancy-grid mapping, 
   <img src="https://img.shields.io/badge/ROS%202-Jazzy-blue.svg"/>
   <img src="https://img.shields.io/badge/PX4-Offboard-red.svg"/>
   <img src="https://img.shields.io/badge/Gazebo-8.10.0-orange.svg"/>
-  <img src="https://img.shields.io/badge/Path%20Planning-A*%20(3D)-brightgreen.svg"/>
+  <img src="https://img.shields.io/badge/Path%20Planning-A*%20(2.5D)-brightgreen.svg"/>
   <img src="https://img.shields.io/badge/Sensor%20Fusion-LiDAR+Depth-green.svg"/>
-  <img src="https://img.shields.io/badge/Real--time%20Mapping-3D%20Voxels-purple.svg"/>
+  <img src="https://img.shields.io/badge/Real--time%20Mapping-Occupancy%20Grid-purple.svg"/>
   <img src="https://img.shields.io/badge/UAV%20Control-PX4%20Offboard-lightgrey.svg"/>
   <img src="https://img.shields.io/badge/Collision%20Avoidance-Safety%20Filtering-yellow.svg"/>
 </p>
+
 
 
 
