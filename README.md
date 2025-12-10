@@ -30,6 +30,14 @@ Autonomous UAV navigation system featuring real-time 3D occupancy-grid mapping, 
 </p>
 
 
+### Real-time A* path planning through dense urban structures, maintaining safe and efficient flight corridors.
+
+
+
+
+
+
+
 
 
 ## System Capabilities
@@ -173,14 +181,27 @@ The system continuously switches between global planning and local safety behavi
 on environmental certainty.
 
 
-### Real-time mapping and A* navigation to user-selected waypoints in dense corridors.
-
-![DEMO_A_1](https://github.com/user-attachments/assets/c75fb21c-5bbe-46b2-9993-45bd84be1314)
+https://github.com/user-attachments/assets/a69d1e50-ebab-41b9-88b5-52e7b9513079
 
 
 
 
-## Configuration Parameters (so users can tune your system)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a69d1e50-ebab-41b9-88b5-52e7b9513079" width="80%">
+</p>
+<p align="center"><i>Smooth transition from local obstacle avoidance to global A* planning as mapping confidence increases.</i></p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/196df5e9-f534-43ae-a9a2-493e9d19ccd8" width="80%">
+</p>
+<p align="center"><i>Real-time mapping and A* navigation to user-selected waypoints in dense corridors.</i></p>
+
+
+
+
+
+## Configuration Parameters 
 
 | Parameter              | Default Value   | Purpose / Effect                                    | Tune In (Script / Location)                             |
 | ---------------------- | --------------- | --------------------------------------------------- | ------------------------------------------------------- |
