@@ -170,14 +170,15 @@ on environmental certainty.
 
 ## Configuration Parameters (so users can tune your system)
 
-| Parameter              | Default         | Purpose                                  | Location                   |
-| ---------------------- | --------------- | ---------------------------------------- | -------------------------- |
-| `flight_altitude`      | **5.0 m**       | Cruise height for waypoint tracking      | SmartObstacleNavigator     |
-| `map_resolution`       | **0.10 m**      | Grid resolution for occupancy mapping    | SimpleMapper (resolution)  |
-| `safety_radius`        | **0.6 m**       | Clearance from obstacles used by A*      | DynamicPlanner params      |
-| `replan_rate`          | **2.0 Hz**      | Frequency of global A* replanning        | DynamicPlanner params      |
-| `base_speed`           | **5.0–7.5 m/s** | Forward velocity based on corridor width | Local navigation logic     |
-| `front_stop_threshold` | **1.2 m**       | Collision emergency stop distance        | Obstacle fail-safe logic   |
+| Parameter              | Default Value   | Purpose / Effect                                    | Tune In (Script / Location)                             |
+| ---------------------- | --------------- | --------------------------------------------------- | ------------------------------------------------------- |
+| `flight_altitude`      | **5.0 m**       | Desired cruising height for waypoint tracking       | `drone.launch.py` or inside **PX4 setpoint parameters** |
+| `map_resolution`       | **0.10 m**      | Voxel size for occupancy grid mapping               | `mapping_node.py` → resolution config                   |
+| `safety_radius`        | **0.6 m**       | Clearance buffer around obstacles for A* planning   | `path_planner.py` → A* planner parameters               |
+| `replan_rate`          | **2.0 Hz**      | Frequency of triggering global replanning           | `path_planner.py` → dynamic replanning loop             |
+| `base_speed`           | **5.0–7.5 m/s** | Forward motion speed based on available corridor    | `depth_avoidance.py` → local speed logic                |
+| `front_stop_threshold` | **1.2 m**       | Emergency stop threshold for sudden obstacle blocks | `depth_avoidance.py` → fail-safe distance check         |
+
 
 
 ## Known Limitations
