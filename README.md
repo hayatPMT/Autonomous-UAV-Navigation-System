@@ -6,3 +6,9 @@
   <img src="https://img.shields.io/badge/Sensor%20Fusion-LiDAR%20%2B%20Depth-008000?style=flat-square" />
   <img src="https://img.shields.io/badge/Mapping-3D%20Voxel-6e42b7?style=flat-square" />
 </p>
+
+
+#Autonomous UAV Navigation System
+
+Autonomous UAV navigation system featuring real-time 3D occupancy-grid mapping, A* global path planning, and depth + LiDAR sensor fusion for dynamic obstacle avoidance in complex urban environments. Fully integrated with ROS 2, PX4 Offboard control, and Gazebo simulation for high-fidelity testing and deployment.
+
