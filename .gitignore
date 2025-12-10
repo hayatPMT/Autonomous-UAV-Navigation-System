@@ -1,0 +1,11 @@
+# Python
+*.pyc
+__pycache__/
+
+# ROS2 build garbage
+build/
+install/
+log/
+
+# VSCode noise
+.vscode/
