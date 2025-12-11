@@ -209,7 +209,7 @@ on environmental certainty.
 
 | **Metric**                 | **Measured Result (Simulation Environment)**  |
 | -------------------------- | --------------------------------------------- |
-| Navigation Success Rate    | 96% across cluttered indoor corridors         |
+| Navigation Success Rate    | 82% across cluttered indoor corridors         |
 | Average Cruise Speed       | 1.8 m/s during autonomous traversal           |
 | Minimum Obstacle Clearance | 0.8 m safety buffer maintained                |
 | Mapping Update Rate        | Depth: 30 Hz, LiDAR: 10 Hz fusion             |
