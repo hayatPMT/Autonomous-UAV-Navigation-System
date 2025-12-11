@@ -2,6 +2,16 @@
 
 Autonomous UAV navigation system featuring real-time 2.5D occupancy-grid mapping, A* global path planning, and depth + LiDAR sensor fusion for dynamic obstacle avoidance in complex urban environments. Fully integrated with ROS 2, PX4 Offboard control, and Gazebo simulation for high-fidelity testing and deployment.
 
+
+## 
+
+<video src="https://github.com/Ajinkya-001/Autonomous-UAV-Navigation-System/releases/download/v1.0.0/Demoo.mp4" controls width="100%"></video>
+
+
+
+
+
+
 <p align="center">
   <!-- Project Status -->
   <img src="https://img.shields.io/badge/Status-Active%20Development-success.svg"/>
