@@ -11,33 +11,17 @@ https://github.com/user-attachments/assets/b0f48266-6d4b-462f-b512-fa1474267b89
 Autonomous UAV navigation system featuring real-time 2.5D occupancy-grid mapping, A* global path planning, and depth + LiDAR sensor fusion for dynamic obstacle avoidance in complex urban environments. Fully integrated with ROS 2, PX4 Offboard control, and Gazebo simulation for high-fidelity testing and deployment.
 
 
-
 <p align="center">
-  <!-- Project Status -->
-  <img src="https://img.shields.io/badge/Status-Active%20Development-success.svg"/>
-  <img src="https://img.shields.io/badge/License-MIT-green.svg"/>
-  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen.svg"/>
-  
-  <!-- Core Stack -->
-  <img src="https://img.shields.io/badge/ROS%202-Jazzy-blue.svg"/>
-  <img src="https://img.shields.io/badge/PX4-Offboard-red.svg"/>
-  <img src="https://img.shields.io/badge/Gazebo-8.10.0-orange.svg"/>
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg"/>
-  <img src="https://img.shields.io/badge/Platform-Linux%20(Ubuntu%2024.04)-lightgrey.svg"/>
-  
-  <!-- Navigation Capabilities -->
-  <img src="https://img.shields.io/badge/2.5D%20Mapping-Height--Aware%20Voxels-purple.svg"/>
-  <img src="https://img.shields.io/badge/Path%20Planning-A*%20(2.5D)-brightgreen.svg"/>
-  <img src="https://img.shields.io/badge/Sensor%20Fusion-LiDAR+Depth-green.svg"/>
-  <img src="https://img.shields.io/badge/Collision%20Avoidance-Safety%20Filtering-yellow.svg"/>
-  <img src="https://img.shields.io/badge/UAV%20Control-PX4%20Offboard-lightgrey.svg"/>
-  
-  <!-- Technical Details -->
-  <img src="https://img.shields.io/badge/Ray%20Tracing-Bresenham-blue.svg"/>
-  <img src="https://img.shields.io/badge/Yaw%20Filtering-Rotation%20Stabilized-orange.svg"/>
-  <img src="https://img.shields.io/badge/Real--time-30Hz%20Mapping-blue.svg"/>
-  <img src="https://img.shields.io/badge/Resolution-0.1m-orange.svg"/>
+  <img src="https://img.shields.io/badge/ROS_2-JAZZY-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2" />
+  <img src="https://img.shields.io/badge/PX4-AUTOPILOT-000000?style=for-the-badge&logo=px4&logoColor=white" alt="PX4" />
+  <img src="https://img.shields.io/badge/GAZEBO-HARMONIC-FF6F00?style=for-the-badge&logo=gazebo&logoColor=white" alt="Gazebo" />
+  <img src="https://img.shields.io/badge/UBUNTU-24.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <br>
+  <img src="https://img.shields.io/badge/MAPPING-2.5D_VOXELS-8A2BE2?style=for-the-badge&logo=files&logoColor=white" alt="Mapping" />
+  <img src="https://img.shields.io/badge/PLANNING-A*_GLOBAL-4CAF50?style=for-the-badge&logo=google-maps&logoColor=white" alt="Planning" />
+  <img src="https://img.shields.io/badge/SENSOR-LIDAR_+_DEPTH-009688?style=for-the-badge&logo=arduino&logoColor=white" alt="Sensors" />
 </p>
+
 
 
 ## System Capabilities
