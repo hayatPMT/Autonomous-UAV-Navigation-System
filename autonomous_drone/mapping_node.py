@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Advanced Mapping Node
-- Rainbow Height Visualization
 - Smart Ghost Clearing
 - Vertical Depth Sampling
 """
